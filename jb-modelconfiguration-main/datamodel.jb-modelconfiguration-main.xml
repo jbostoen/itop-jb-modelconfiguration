@@ -113,6 +113,24 @@
 				</list>
 			</presentation>
 		</class>
+		<class id="Model">
+			<fields>
+				<field id="modelconfigurations_list" xsi:type="AttributeLinkedSet" _delta="define">
+					<linked_class>ModelConfiguration</linked_class>
+					<ext_key_to_me>model_id</ext_key_to_me>
+					<edit_mode>actions</edit_mode>
+				</field>
+			</fields>
+			<presentation>
+				<details>
+					<items>
+						<item id="modelconfigurations_list" _delta="define">
+							<rank>101</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
 		<class id="PhysicalDevice">
 			<fields>
 				<field id="modelconfiguration_id" xsi:type="AttributeExternalKey" _delta="define">
@@ -148,24 +166,22 @@
 				</details>
 			</presentation>
 		</class>
-			</classes>
-			<menus>
-				<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Typology" xsi:type="DashboardMenuNode">
-					<definition>
-						<cells>
-							<cell id="0">
-								<dashlets>
-									<dashlet id="3_modelconfiguration" xsi:type="DashletBadge" _delta="define">
-										<!-- Rank of Model = 2 -->
-										<rank>2.1</rank>
-										<class>ModelConfiguration</class>
-									</dashlet>
-								</dashlets>
-							</cell>
-						</cells>
-					</definition>
-				</menu>
-			</menus>
-		</itop_design>
-
-
+	</classes>
+	<menus>
+		<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Typology" xsi:type="DashboardMenuNode">
+			<definition>
+				<cells>
+					<cell id="0">
+						<dashlets>
+							<dashlet id="3_modelconfiguration" xsi:type="DashletBadge" _delta="define">
+								<!-- Rank of Model = 2 -->
+								<rank>2.1</rank>
+								<class>ModelConfiguration</class>
+							</dashlet>
+						</dashlets>
+					</cell>
+				</cells>
+			</definition>
+		</menu>
+	</menus>
+</itop_design>

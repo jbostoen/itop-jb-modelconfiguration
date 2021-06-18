@@ -26,11 +26,14 @@ Supported custom iTop classes:
 * Docking Station [jb-dockingstation](https://github.com/jbostoen/itop-jb-dockingstation)
 * Monitor [jb-monitor](https://github.com/jbostoen/itop-jb-monitor)
 
+Hint: by changing iTop's configuration file, you could add attachments to this class such as product sheets, quick start guides, ...
+
 
 ## Cookbook
 
 XML:
 * new iTop class
+* install additional (hidden) extensions based on user selection choices during setup wizard
 
 
 

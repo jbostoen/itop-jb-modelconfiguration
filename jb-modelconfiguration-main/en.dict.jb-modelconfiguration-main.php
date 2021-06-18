@@ -28,7 +28,10 @@ Dict::Add('EN US', 'English', 'English', array(
 	'Class:ModelConfiguration/Attribute:physicaldevices_list' => 'Devices',
 	'Class:ModelConfiguration/Attribute:physicaldevices_list+' => 'List of devices having this model configuration.',
 	
+	'Class:Model/Attribute:modelconfigurations_list' => 'Configurations',
+	
 	'Class:PhysicalDevice/Attribute:modelconfiguration_id' => 'Model configuration',
+	
 	
 ));
 
