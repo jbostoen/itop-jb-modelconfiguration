@@ -3,8 +3,8 @@
 	<extension_code><![CDATA[jb-modelconfiguration-monitor]]></extension_code>
 	<company><![CDATA[]]></company>
 	<author><![CDATA[Jeffrey Bostoen]]></author>
-	<label><![CDATA[Datamodel: Model Configuration]]></label>
-	<description><![CDATA[Adds model configuration. This extends upon limited model information and allows to keep a more detailed configuration report. For intance, a certain model of a PC can have multiple configurations (different ports, hard disks, video cable slots, ...)]]></description>
+	<label><![CDATA[Datamodel: Model Configuration - Monitor]]></label>
+	<description><![CDATA[Adds model configuration.for Monitor.]]></description>
 	<version><![CDATA[2.6.210419]]></version>
 	<release_date><![CDATA[2021-04-19]]></release_date>
 	<version_description><![CDATA[]]></version_description>

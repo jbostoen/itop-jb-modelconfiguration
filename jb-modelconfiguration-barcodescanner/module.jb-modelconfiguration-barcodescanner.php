@@ -25,7 +25,7 @@ SetupWebPage::AddModule(
 					'jb-barcodescanner/2.6.0',
                 ),
                 'mandatory' => false,
-				'visible' => true, // To prevent auto-install but shall not be listed in the install wizard
+				'visible' => false, // To prevent auto-install but shall not be listed in the install wizard
 				'auto_select' => 'SetupInfo::ModuleIsSelected("jb-barcodescanner") && SetupInfo::ModuleIsSelected("jb-modelconfiguration-main")',
 
 

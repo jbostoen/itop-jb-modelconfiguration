@@ -25,7 +25,7 @@ SetupWebPage::AddModule(
 					'jb-monitor/2.6.0',
                 ),
                 'mandatory' => false,
-				'visible' => true, // To prevent auto-install but shall not be listed in the install wizard
+				'visible' => false, // To prevent auto-install but shall not be listed in the install wizard
 				'auto_select' => 'SetupInfo::ModuleIsSelected("jb-monitor") && SetupInfo::ModuleIsSelected("jb-modelconfiguration-main")',
 
                 // Components
