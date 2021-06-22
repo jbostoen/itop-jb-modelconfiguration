@@ -11,7 +11,7 @@
 				<category>bizmodel,searchable</category>
 				<abstract>false</abstract>
 				<key_type>autoincrement</key_type>
-				<db_table>model</db_table>
+				<db_table>modelconfiguration</db_table>
 				<db_key_field>id</db_key_field>
 				<db_final_class_field/>
 				<naming>

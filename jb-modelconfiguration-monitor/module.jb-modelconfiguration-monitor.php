@@ -3,14 +3,14 @@
 /**
  * @copyright   Copyright (C) 2021 Jeffrey Bostoen
  * @license     https://www.gnu.org/licenses/gpl-3.0.en.html
- * @version     2021-04-19 11:20:52
+ * @version     2.6.210622
  *
  * iTop module definition file
  */
 
 SetupWebPage::AddModule(
         __FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-        'jb-modelconfiguration-monitor/2.6.210419',
+        'jb-modelconfiguration-monitor/2.6.210622',
         array(
                 // Identification
                 //

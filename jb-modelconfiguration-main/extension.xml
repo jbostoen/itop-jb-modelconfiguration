@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension format="1.0">
 	<extension_code><![CDATA[jb-modelconfiguration-main]]></extension_code>
-	<company><![CDATA[]]></company>
+	<company></company>
 	<author><![CDATA[Jeffrey Bostoen]]></author>
 	<label><![CDATA[Datamodel: Model Configuration]]></label>
 	<description><![CDATA[Adds model configuration. This extends upon limited model information and allows to keep a more detailed configuration report. For intance, a certain model of a PC can have multiple configurations (different ports, hard disks, video cable slots, ...)]]></description>
-	<version><![CDATA[2.6.210419]]></version>
-	<release_date><![CDATA[2021-04-19]]></release_date>
+	<version>2.6.210622</version>
+	<release_date>2021-06-22</release_date>
 	<version_description><![CDATA[]]></version_description>
-	<itop_version_min><![CDATA[2.6.0]]></itop_version_min>
+	<itop_version_min>2.6.0</itop_version_min>
 	<status>stable</status>
 	<mandatory>false</mandatory>
 	<more_info_url><![CDATA[https://jbostoen.github.io/itop-extensions-documentation/]]></more_info_url>
